@@ -16,3 +16,4 @@ for x in range(100):
     psw.send_keys(str)#envio el string
     print(str) 
     clk = driver.find_element_by_xpath("//*[@id='customer_login']/p[1]/button").click() #xpath del boton para que se haga click en la pagina
+    print("iteracion: ",x)
